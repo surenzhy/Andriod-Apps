@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top" >
+
+<Button
+    android:id="@+id/off_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_weight="0.18"
+    android:text="@string/off_flash" />
+
+<Button
+    android:id="@+id/on_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/off_button"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="46dp"
+    android:layout_weight="0.15"
+    android:text="@string/on_flash" />
+
+<DigitalClock
+    android:id="@+id/digitalClock1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/on_button"
+    android:layout_alignParentLeft="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="42dp"
+    android:text="@string/digitalclock" />
+
+</RelativeLayout>
